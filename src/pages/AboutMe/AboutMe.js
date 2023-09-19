@@ -3,7 +3,6 @@ import React from 'react'
 
 const AboutMe = () => {
 
-    console.log('about me')
 
   return (
     <div>
