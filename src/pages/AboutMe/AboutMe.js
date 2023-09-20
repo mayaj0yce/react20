@@ -5,10 +5,11 @@ const AboutMe = () => {
 
 
   return (
-    <div>
+    <div class= 'content is-medium'>
         <p>About me</p>
-        <img src="" alt="" />
-        <p>Utah born and raised. Having been a part of healthcare for the last 8 years I am happy to be coding and in an environment as sterile as I choose it to be. I have two cats, Lilith and Ivy May. </p>
+        <img src="" alt="self" />
+        <p>Utah born and raised. I was previously in health care and now I am working as an Amazon Delivery Driver. 
+          I have two cats  </p>
         <img src="" alt="Ivy May" />
         <img src="" alt="lil Devil"/>
     </div>

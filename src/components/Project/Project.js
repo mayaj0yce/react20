@@ -4,7 +4,9 @@ export const Project = () => {
   return (
     <div>Project
 
+<card class='card1'>
 
+</card>
 
 
     </div>

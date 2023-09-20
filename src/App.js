@@ -27,7 +27,7 @@ function App() {
           <Route exact path='/portfolio' element={<MyWork/>}/>
         </Routes>
 
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );

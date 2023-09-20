@@ -3,34 +3,44 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section class="hero is-info">
-      <div class="hero-body">
-        <p class='title'>
-          MayaJ0yce Thayne
-        </p>
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="/">
-            About Me
-          </a>
-          
-            <div class="navbar-dropdown is-boxed">
-            <a  class="navbar-link" href="/contact">
-              Contact Info
-              </a>
-              <a class="navbar-link" href="/resume">
-                Resume
-              </a>
-              <a class="navbar-item" href="/portfolio">
-                Portfolio
+    <section class="hero is-primary center">
+      <div class="hero-head">
+        <nav class='navbar'>
+          <div class='container'>
+            <div class='navbar-brand'>
+              <a class='title'>
+                MayaJ0yce Thayne
               </a>
             </div>
+            <nav class="navbar is-light" role="navigation"
+              aria-label="main navigation">
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="/">
+                  menu
+                </a>
 
+                <div class="navbar-dropdown text-is-black">
+                  <a class="navbar-item" href="/">
+                    About Me
+                  </a>
+                  <a class="navbar-item" href="/contact">
+                    Contact Info
+                  </a>
+                  <a class="navbar-item" href="/resume">
+                    Resume
+                  </a>
+                  <a class="navbar-item" href="/portfolio">
+                    Portfolio
+                  </a>
+                </div>
+              </div>
+            </nav>
           </div>
-          </div>
-       
-        </section>
-        )
+        </nav>
+      </div>
+    </section>
+
+  )
 }
 
-        export default Header
+export default Header
