@@ -3,19 +3,21 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section class="hero is-primary center">
+    <section class="hero is-warning center">
       <div class="hero-head">
         <nav class='navbar'>
           <div class='container'>
             <div class='navbar-brand'>
+              {/* eslint-disable-next-line */}
               <a class='title'>
                 MayaJ0yce Thayne
               </a>
             </div>
-            <nav class="navbar is-light" role="navigation"
+            <nav class="navbar is-warning" role="navigation"
               aria-label="main navigation">
               <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" href="/">
+                {/* eslint-disable-next-line */}
+                <a class="navbar-link">
                   menu
                 </a>
 

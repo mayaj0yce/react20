@@ -40,7 +40,7 @@ const MyWork = () => {
 <card class='card2'></card>
 <div class="card">
   <div class="card-image">
-    <figure class="image is-48x48">
+  <figure class="image is-128x128">
       <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
     </figure>
   </div>
