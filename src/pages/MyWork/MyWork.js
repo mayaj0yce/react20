@@ -1,7 +1,8 @@
 import React from 'react'
 import 'bulma/css/bulma.min.css';
 import Project from '../../components/Project/Project';
-import { useHref } from 'react-router-dom';
+import portfolioImg from '../../img/portfolio.jpg';
+// import { useHref } from 'react-router-dom';
 
 // For each project that is featured in your portfolio, include the following:
 
@@ -10,7 +11,7 @@ import { useHref } from 'react-router-dom';
 // * The title of the project
 const projects = [
 {
-  image: 'href= "portfolio.png"',
+  image: portfolioImg,
   name: 'professional portfolio',
   github: 'https://github.com/mayaj0yce/professional-portfolio.git',
   description: 'My first portfolio created from scratch',
