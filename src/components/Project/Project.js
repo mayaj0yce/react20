@@ -1,16 +1,19 @@
 import React from 'react'
 
-export const Project = () => {
+export const Project = (props) => {
   return (
-    <div>Project
+    <div>
 
-<card class='card1'>
-
-</card>
-
+<div>{props.image}</div>
+<div>{props.name}</div>
+<div>{props.github}</div>
+<div>{props.description}</div>
 
     </div>
   )
 }
 
 export default Project
+
+// name 
+// github

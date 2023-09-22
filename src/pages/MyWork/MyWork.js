@@ -1,150 +1,66 @@
 import React from 'react'
 import 'bulma/css/bulma.min.css';
+import Project from '../../components/Project/Project';
+import { useHref } from 'react-router-dom';
 
 // For each project that is featured in your portfolio, include the following:
 
 // * An image of the deployed application (either a short animated GIF or screenshot)
 
 // * The title of the project
+const projects = [
+{
+  image: 'href= "portfolio.png"',
+  name: 'professional portfolio',
+  github: 'https://github.com/mayaj0yce/professional-portfolio.git',
+  description: 'My first portfolio created from scratch',
+},
+{
+  image: '',
+  name: 'horrison',
+  github: 'https://github.com/mayaj0yce/Horiseon-work-up-.git',
+  description: 'HTML and CSS work up for a fake company demo',
+},
+{
+  image: 'image',
+  name: 'Read Me Application',
+  github: 'https://github.com/mayaj0yce/readMeRights.git',
+  description: 'Creates a Readme based on a users input',
+},
+{
+  image: 'image',
+  name: 'ArtGallorey',
+  github: 'https://github.com/mayaj0yce/artGallorey.git',
+  description: 'class project 2. I was alone and did the back end for an art gallery site',
+},
+{
+  image: 'no img to display',
+  name: 'noSQL Social Database',
+  github: 'https://github.com/mayaj0yce/noSocialSQL18.git',
+  description: 'This allows a user to create an account and use the site like any other social media app.',
+}
 
+]
 // * A link to the deployed application
 
 // * A link to the corresponding GitHub repository
 
 const MyWork = () => {
   return (
-    <div>MyWork
-<card class='card1'></card>
+    <div>{projects.map((p)=>{
+      return <Project 
+      image={p.image}
+      name={p.name}
+      github={p.github}
+      description={p.description}
+      >
+         
+      </Project>
+    } 
+    ) }
 
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-48x48">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-content">
-        <p class="title is-4">NAME</p>
-      </div>
-    </div>
-
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      <a href="./">NAME</a> <a href="./">GITHUB</a>
-    </div>
-  </div>
 </div>
 
-
-<card class='card2'></card>
-<div class="card">
-  <div class="card-image">
-  <figure class="image is-128x128">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-content">
-        <p class="title is-4">NAME</p>
-      </div>
-    </div>
-
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      <a href="./">NAME</a> <a href="./">GITHUB</a>
-    </div>
-  </div>
-</div>
-
-
-<card class='card3'></card>
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-48x48">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-content">
-        <p class="title is-4">NAME</p>
-      </div>
-    </div>
-
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      <a href="./">NAME</a> <a href="./">GITHUB</a>
-    </div>
-  </div>
-</div>
-
-
-<card class='card4'></card>
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-48x48">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-content">
-        <p class="title is-4">NAME</p>
-      </div>
-    </div>
-
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      <a href="./">NAME</a> <a href="./">GITHUB</a>
-    </div>
-  </div>
-</div>
-
-<card class='card5'></card>
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-48x48">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-content">
-        <p class="title is-4">NAME</p>
-      </div>
-    </div>
-
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      <a href="./">NAME</a> <a href="./">GITHUB</a>
-    </div>
-  </div>
-</div>
-
-<card class='card6'></card>
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-48x48">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-content">
-        <p class="title is-4">NAME</p>
-      </div>
-    </div>
-
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      <a href="./">NAME</a> <a href="./">GITHUB</a>
-    </div>
-  </div>
-</div>
-        
-    </div>
   )
 }
 
