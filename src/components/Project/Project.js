@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Project = (props) => {
   return (
-    <div>
+    <div class='block'>
 
 <div>{props.image}</div>
 <div>{props.name}</div>

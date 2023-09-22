@@ -1,4 +1,6 @@
 import React from 'react'
+import 'bulma/css/bulma.min.css';
+
 // import Nav from '../Nav/Nav';
 
 const Header = () => {

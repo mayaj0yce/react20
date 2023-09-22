@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bulma/css/bulma.min.css';
 import Project from '../../components/Project/Project';
-import portfolioImg from '../../img/portfolio.jpg';
+// import portfolioImg from '../../img/portfolio.jpg';
 // import { useHref } from 'react-router-dom';
 
 // For each project that is featured in your portfolio, include the following:
