@@ -11,7 +11,7 @@ import portfolioImg from '../../img/portfolio.jpg';
 // * The title of the project
 const projects = [
 {
-  image: portfolioImg,
+  image:  C:\Users\mjtha\downloads\react20\src\img\portfolio.jpg,
   name: 'professional portfolio',
   github: 'https://github.com/mayaj0yce/professional-portfolio.git',
   description: 'My first portfolio created from scratch',
