@@ -14,19 +14,19 @@ import Resume from './pages/Resume/Resume';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" class='hero is-fullheight'>
       <Router>
         <Header >
           <Nav />
         </Header>
-
+<br/>
         <Routes>
           <Route exact path='/' element={<AboutMe/>}/>
           <Route exact path='/contact' element={<Contact/>}/>
           <Route exact path='/resume' element={<Resume/>}/>
           <Route exact path='/portfolio' element={<MyWork/>}/>
         </Routes>
-
+<br/>
         <Footer />
       </Router>
     </div>

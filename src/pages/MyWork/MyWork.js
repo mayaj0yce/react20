@@ -11,31 +11,31 @@ import Project from '../../components/Project/Project';
 // * The title of the project
 const projects = [
 {
-  image: '',
-  name: 'professional portfolio',
+  image:  <img src="" alt="Portfolio img" /> ,
+  name: 'Portfolio',
   github: 'https://github.com/mayaj0yce/professional-portfolio.git',
   description: 'My first portfolio created from scratch',
 },
 {
-  image: '',
-  name: 'horrison',
+  image:  <img src="" alt="Horrison" />,
+  name: 'Horrison',
   github: 'https://github.com/mayaj0yce/Horiseon-work-up-.git',
   description: 'HTML and CSS work up for a fake company demo',
 },
 {
-  image: 'image',
+  image: <img src='../../img.png' alt="ReadMe" />,
   name: 'Read Me Application',
   github: 'https://github.com/mayaj0yce/readMeRights.git',
   description: 'Creates a Readme based on a users input',
 },
 {
-  image: 'image',
+  image:  <img src="" alt="ArtGallorey" />,
   name: 'ArtGallorey',
   github: 'https://github.com/mayaj0yce/artGallorey.git',
   description: 'class project 2. I was alone and did the back end for an art gallery site',
 },
 {
-  image: 'no img to display',
+  image:  <img src="" alt="no image found" /> ,
   name: 'noSQL Social Database',
   github: 'https://github.com/mayaj0yce/noSocialSQL18.git',
   description: 'This allows a user to create an account and use the site like any other social media app.',

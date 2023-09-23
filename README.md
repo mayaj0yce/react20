@@ -35,7 +35,7 @@ About Me,
     PHOTOS and CSS
 
 Portfolio, 
-    PHOTOS
+    PHOTOS and LINKS for projects
 
 Contact,
 

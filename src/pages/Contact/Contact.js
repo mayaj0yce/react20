@@ -14,7 +14,13 @@ const Contact = () => {
         </div>
       </div>
       <div class='column is-full'>
-        message
+      <div class="field-body">
+            <div class="field">
+              <p class="control"> Add A Message:
+                <input class="input" type="name" placeholder="Whats up?" />
+              </p>
+            </div>
+          </div>
       </div>
 
 
