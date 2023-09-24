@@ -1,4 +1,4 @@
-#React Portfolio
+# React Portfolio
 I was able to build a full portfolio with multiple pages and links using React.
 
 There are links to external sites, image hrefs, front side and backend, etc
