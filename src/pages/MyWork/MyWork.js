@@ -11,7 +11,7 @@ import Project from '../../components/Project/Project';
 // * The title of the project
 const projects = [
 {
-  image:  'http://localhost:3000/img/portfolio.jpg' ,
+  image:  'http://localhost:3000/public/img/portfolio.jpg' ,
   name: 'Portfolio',
   github: 'https://github.com/mayaj0yce/professional-portfolio.git',
   description: 'My first portfolio created from scratch',
