@@ -21,8 +21,8 @@ const Footer = () => {
       <nav class='tabs'>
         <div class='container'>
           <ul>
-            <li><a href='./githubLink '>GitHub Link </a></li>
-            <li><a href='./LinkdinLink'>Linkdin</a></li>
+            <li><a href='https://github.com/mayaj0yce' target='_blank'>GitHub Link </a></li>
+            <li><a href='https://www.linkedin.com/in/mayaj0yce/' target='_blank'>Linkdin</a></li>
             <li><a>Etc.</a></li>
 
           </ul>

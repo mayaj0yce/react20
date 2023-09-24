@@ -11,34 +11,34 @@ import Project from '../../components/Project/Project';
 // * The title of the project
 const projects = [
 {
-  image:  <img src="" alt="Portfolio img" /> ,
+  image:  'http://localhost:3000/img/portfolio.jpg' ,
   name: 'Portfolio',
   github: 'https://github.com/mayaj0yce/professional-portfolio.git',
   description: 'My first portfolio created from scratch',
 },
 {
-  image:  <img src="" alt="Horrison" />,
-  name: 'Horrison',
+  image:  'http://localhost:3000/img/mockUp.jpg',
+  name: 'Horiseon',
   github: 'https://github.com/mayaj0yce/Horiseon-work-up-.git',
   description: 'HTML and CSS work up for a fake company demo',
 },
 {
-  image: <img src='../../img.png' alt="ReadMe" />,
+  image: 'http://localhost:3000/img/ReadMe.jpg',
   name: 'Read Me Application',
   github: 'https://github.com/mayaj0yce/readMeRights.git',
   description: 'Creates a Readme based on a users input',
 },
 {
-  image:  <img src="" alt="ArtGallorey" />,
+  image:  'http://localhost:3000/img/artData.jpg',
   name: 'ArtGallorey',
   github: 'https://github.com/mayaj0yce/artGallorey.git',
   description: 'class project 2. I was alone and did the back end for an art gallery site',
 },
 {
-  image:  <img src="" alt="no image found" /> ,
-  name: 'noSQL Social Database',
-  github: 'https://github.com/mayaj0yce/noSocialSQL18.git',
-  description: 'This allows a user to create an account and use the site like any other social media app.',
+  image:  'http://localhost:3000/img/workDay.jpg',
+  name: 'Work Day Scheduler',
+  github: 'https://github.com/mayaj0yce/workDay.git',
+  description: 'A hectic work day can be easily solved by using this day planner app that tracks by the hour and updates as time passes through the day.',
 }
 
 ]

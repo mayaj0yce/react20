@@ -2,20 +2,22 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>Resume
+    <div>
+      <h1>Thanks for your interest! I have a resume available for download via the button below :)</h1>
 
-        <button class='download button' href="./RESUME">
-            Click Here
-        </button>
-<div class='resumeImg' >
-    <img href="" alt=''/>
-</div>
+      <br />
+
+      <a href='/img/resume.jpg' download='resume'>
+        Click Me!! please..
+        {/* <img src='http://localhost:3000/img/resume.jpg' alt="self" download /> */}
+      </a>
+
+      <br />
+      
+      <h1>see ya! </h1>
     </div>
   )
 }
 
 export default Resume
 
-
-// WHEN I am presented with the Resume section
-// THEN I see a link to a downloadable resume and a list of the developer’s proficiencies

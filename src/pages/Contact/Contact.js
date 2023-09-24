@@ -3,70 +3,39 @@ import 'bulma/css/bulma.min.css';
 
 const Contact = () => {
   return (
-    <div class='container'>
-      <div class='columns'>
-        <div class='column is-half'>
-          name
+    <div>
+
+      <div className='container'>
+        <div className='block'>
+          <h1>Reach out via Email below or copy my email</h1>
+          <h2>MayaJoyce Thayne</h2>
+          <h2>m.j.thayne@gmail.com</h2>
         </div>
-        <div class='column is-half'>
-          email
+        <div className='column'>
 
+          <form>
+            <label>Name:</label>
+            <input type="text" required />
+            <label>Email:</label>
+            <input type="email" required />
+        
+
+
+          <div class='column is-full'>
+            <div class="field-body">
+
+
+              <label> Message:</label>
+              <input class="input" type="name" placeholder="Whats up?" required/>
+            </div>
+          </div>
+          <button>Submit</button>
+          </form>
         </div>
-      </div>
-      <div class='column is-full'>
-      <div class="field-body">
-            <div class="field">
-              <p class="control"> Add A Message:
-                <input class="input" type="name" placeholder="Whats up?" />
-              </p>
-            </div>
-          </div>
-      </div>
 
-
-      {/* <div>
-        <h1> Get in touch with me! </h1> */}
-
-        {/* <div class= 'block'>
-    <textarea class="box textarea" placeholder="Name Here"></textarea> */}
-{/* 
-        <div class="field is-horizontal">
-          <div class="field-label is-normal">
-            <label class="label">Name:</label>
-          </div>
-          <div class="field-body">
-            <div class="field">
-              <p class="control">
-                <input class="input" type="name" placeholder="Name Here" />
-              </p>
-            </div>
-          </div>
-          <div class="field-label is-normal">
-            <label class="label">Email:</label>
-          </div>
-          <div class="field-body">
-            <div class="field">
-              <p class="control">
-                <input class="input" type="email" placeholder="Email Address Here" />
-              </p>
-            </div>
-          </div>
-
-        </div>
-        <div class='field is-horizontal'>
-          <div class="field-label is-normal">
-            <label class="label">Message:</label>
-          </div>
-          <div class="field-body">
-            <div class="field">
-              <p class="control">
-                <input class="input" type="name" placeholder="Whats up?" />
-              </p>
-            </div>
-          </div>
-        </div> */}
-      </div>
-      )
+      </div >
+    </div>
+  )
 }
 
-      export default Contact
+export default Contact
