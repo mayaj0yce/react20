@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bulma/css/bulma.min.css';
-import AboutMe from './src/pages/AboutMe/AboutMe';
-import Nav from './src/components/Nav/Nav';
-import Footer from './src/components/Footer/Footer';
-import Header from './src/components/Header/Header';
+import AboutMe from './pages/AboutMe/AboutMe';
+import Nav from './components/Nav/Nav';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 // import Project from './components/Project/Project';
-import Contact from './src/pages/Contact/Contact';
-import MyWork from './src/pages/MyWork/MyWork';
-import Resume from './src/pages/Resume/Resume';
+import Contact from './pages/Contact/Contact';
+import MyWork from './pages/MyWork/MyWork';
+import Resume from './pages/Resume/Resume';
 
 
 // routing here 
