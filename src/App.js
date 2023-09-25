@@ -19,14 +19,12 @@ function App() {
         <Header >
           <Nav />
         </Header>
-<br/>
         <Routes>
           <Route exact path='/react20' element={<AboutMe/>}/>
           <Route exact path='/contact' element={<Contact/>}/>
           <Route exact path='/resume' element={<Resume/>}/>
           <Route exact path='/portfolio' element={<MyWork/>}/>
         </Routes>
-<br/>
         <Footer />
       </Router>
     </div>
