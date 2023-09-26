@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react20/static/css/main.936c97d2.css",
+    "main.js": "/react20/static/js/main.be8ec9ad.js",
+    "static/js/787.cd92e25b.chunk.js": "/react20/static/js/787.cd92e25b.chunk.js",
+    "static/media/mockUp.jpg": "/react20/static/media/mockUp.669fbc3edddfd683ca9f.jpg",
+    "static/media/handsomeMan.jpg": "/react20/static/media/handsomeMan.2227f8b77b3e6a8a1be1.jpg",
+    "static/media/lilith.jpg": "/react20/static/media/lilith.abb25444114841409452.jpg",
+    "static/media/portfolio.jpg": "/react20/static/media/portfolio.3f7fd98c5f6af95eedad.jpg",
+    "static/media/ivyMay.JPG": "/react20/static/media/ivyMay.a0503453aa764ff1a721.JPG",
+    "static/media/workDay.jpg": "/react20/static/media/workDay.3da2e7465df5682892d3.jpg",
+    "static/media/ReadMe.jpg": "/react20/static/media/ReadMe.ef3f4372d7eaa40f5419.jpg",
+    "static/media/artData.jpg": "/react20/static/media/artData.2e31616c098043d2f0da.jpg",
+    "index.html": "/react20/index.html",
+    "main.936c97d2.css.map": "/react20/static/css/main.936c97d2.css.map",
+    "main.be8ec9ad.js.map": "/react20/static/js/main.be8ec9ad.js.map",
+    "787.cd92e25b.chunk.js.map": "/react20/static/js/787.cd92e25b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.936c97d2.css",
+    "static/js/main.be8ec9ad.js"
+  ]
+}
